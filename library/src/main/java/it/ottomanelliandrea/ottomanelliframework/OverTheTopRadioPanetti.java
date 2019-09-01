@@ -1,10 +1,4 @@
-package im.delight.android.webview;
-
-/*
- * Android-AdvancedWebView (https://github.com/delight-im/Android-AdvancedWebView)
- * Copyright (c) delight.im (https://www.delight.im/)
- * Licensed under the MIT License (https://opensource.org/licenses/MIT)
- */
+package it.ottomanelliandrea.ottomanelliframework;
 
 import android.content.ActivityNotFoundException;
 import android.view.ViewGroup;
@@ -60,7 +54,7 @@ import java.util.Map;
 
 /** Advanced WebView component for Android that works as intended out of the box */
 @SuppressWarnings("deprecation")
-public class AdvancedWebView extends WebView {
+public class OverTheTopRadioPanetti extends WebView {
 
 	public interface Listener {
 		void onPageStarted(String url, Bitmap favicon);
@@ -94,17 +88,17 @@ public class AdvancedWebView extends WebView {
 	protected String mUploadableFileTypes = "*/*";
 	protected final Map<String, String> mHttpHeaders = new HashMap<String, String>();
 
-	public AdvancedWebView(Context context) {
+	public OverTheTopRadioPanetti(Context context) {
 		super(context);
 		init(context);
 	}
 
-	public AdvancedWebView(Context context, AttributeSet attrs) {
+	public OverTheTopRadioPanetti(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		init(context);
 	}
 
-	public AdvancedWebView(Context context, AttributeSet attrs, int defStyleAttr) {
+	public OverTheTopRadioPanetti(Context context, AttributeSet attrs, int defStyleAttr) {
 		super(context, attrs, defStyleAttr);
 		init(context);
 	}
