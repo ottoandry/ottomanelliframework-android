@@ -1,8 +1,8 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="im.delight.android.webview">
+    package="it.ottomanelliandrea.ottomanelliframework">
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="21" />
+        android:targetSdkVersion="29" />
     <application />
 </manifest>
